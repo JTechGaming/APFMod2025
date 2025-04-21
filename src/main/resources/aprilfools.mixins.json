@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.jtech.aprilfools.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RedstoneCrosstalkMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

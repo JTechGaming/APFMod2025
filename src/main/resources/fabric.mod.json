@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "aprilfools",
+  "version": "${version}",
+  "name": "AprilFools",
+  "description": "A default project used by JTechGaming for all their mods",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/aprilfools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.jtech.aprilfools.client.AprilfoolsClient"
+    ],
+    "main": [
+      "me.jtech.aprilfools.Aprilfools"
+    ]
+  },
+  "mixins": [
+    "aprilfools.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
